@@ -1,4 +1,66 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.container {
+    height: 100vh;
+}
+
+h1 {
+    text-align: center;
+    font-size: 30px;
+    padding: 10px 0 0 0;
+}
+
+fieldset {
+    border: none;
+    position: absolute;
+    right: 10vw;
+    top: 45vh;
+}
+
+span {
+    display: flex;
+    gap: 5px;
+}
+
+.blue,
+.orange {
+    width: 15px;
+    height: 15px;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.orange {
+    background-color: orange;
+}
+
+svg {
+    overflow: visible;
+    margin-left: 18vw;
+    margin-top: 50px;
+}
+
+#tooltip {
+    font-size: 12px;
+    background: linear-gradient(45deg, skyblue, rgb(255, 0, 255));
+    color: rgba(1, 1, 124, 0.979);
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 0 0 10px 2px;
+    pointer-events: none;
+}
+
+#x-axis,
+#y-axis {
+    pointer-events: none;
 }
